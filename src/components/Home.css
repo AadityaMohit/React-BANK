@@ -1,0 +1,91 @@
+.home {
+    padding: 2rem;
+    text-align: center;
+    background-color: #f8f9fa;
+  }
+  
+  .welcome-section {
+    background-color: #0073e6;
+    color: white;
+    padding: 2rem;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+  }
+  
+  .carousel-section {
+    margin-bottom: 2rem;
+  }
+  
+  .carousel img {
+    max-height: 300px; /* Adjust this value as needed */
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .services-section,
+  .news-section,
+  .login-signup-section,
+  .promo-section {
+    margin-bottom: 2rem;
+  }
+  
+  .services {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .service {
+    background-color: #e0f7fa;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 5px;
+    width: calc(50% - 2rem);
+  }
+  
+  .news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .news article {
+    background-color: #fff9c4;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 5px;
+    width: 80%;
+  }
+  
+  .login-signup-section h3,
+  .login-signup-section h4 {
+    margin-bottom: 1rem;
+  }
+  
+  .login-options {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .login-options button {
+    padding: 1rem 2rem;
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .login-options button svg {
+    margin-right: 0.5rem;
+  }
+  
+  .promo {
+    background-color: #ffe0b2;
+    padding: 1rem;
+    border-radius: 5px;
+  }
+  

@@ -1,0 +1,51 @@
+.contact-container {
+    font-family: Arial, sans-serif;
+    color: #333;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header .logo {
+    width: 100px;
+  }
+  
+  .header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .main-menu ul, .submenu ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+  }
+  
+  .contact-info {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+  
+  .contact-info h2, .contact-info h3 {
+    color: #0056b3;
+  }
+  
+  .contact-card, .unauthorised-transactions, .email {
+    margin-bottom: 20px;
+  }
+  
+  .footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  

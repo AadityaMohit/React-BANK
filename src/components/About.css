@@ -1,0 +1,18 @@
+.about-page {
+    padding: 2rem 0;
+  }
+  
+  .card {
+    margin-bottom: 2rem;
+    border: none;
+  }
+  
+  .card-header {
+    background-color: #0073e6;
+    color: white;
+  }
+  
+  .card-body {
+    background-color: #f8f9fa;
+  }
+  

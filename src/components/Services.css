@@ -1,0 +1,43 @@
+.services-page {
+    padding: 2rem 0;
+  }
+  
+  .service-card {
+    border: none;
+    transition: transform 0.2s;
+  }
+  
+  .service-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .service-card img {
+    max-height: 200px;
+    object-fit: cover;
+  }
+  
+  .service-card .card-body {
+    background-color: #f8f9fa;
+  }
+  .cta-section {
+    background-color: #1E90FF;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .cta-button {
+    background-color: white;
+    color: #1E90FF;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #f8f9fa;
+    color: #007bff;
+  }
